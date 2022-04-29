@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+	<div class="wrapper">
+		<input  placeholder="0" id="value1" class = "input" > 
+
+		<input  id="value2" class = "numbertwo">
+		<div class="onethree">
+			<button onclick="insert('1')" class="but">1</button>
+			<button onclick="insert('2')" class="but">2</button>
+			<button onclick="insert('3')" class="but">3</button>
+			<button id="action" onclick="op='*'" class="item">*</button>
+		</div>
+		<div class="foursix">
+			<button onclick="insert('4')" class="but">4</button>
+			<button onclick="insert('5')" class="but">5</button>
+			<button onclick="insert('6')" class="but">6</button>
+			<button id="minus" onclick="op='-'" class="item">-</button>
+		</div>
+		<div class="sevennine">
+			
+			<button onclick="insert('7')" class="but">7</button>
+			<button onclick="insert('8')" class="but">8</button>
+			<button onclick="insert('9')" class="but">9</button>
+			<button id="plus" onclick="op='+'"class="item">+</button>
+		</div>
+		<div class="items">
+			
+			<button onclick="insert('0')" class="but">0</button>
+			<button id="delenie" onclick="op='/'" class="item">/</button>
+			<button id="ac" class="AC">AC</button>
+			<button onclick="funck()" class="but" >=</button>
+		</div>
+	</div>
+
+    <script src="js/script.js">
+    	
+    </script>  
+</body>
+</html>
